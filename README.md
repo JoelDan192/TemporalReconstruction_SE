@@ -4,6 +4,7 @@ A few scripts to get vote history from publicly available SE data (Internet arch
 Download any site's data from https://archive.org/details/stackexchange
 (recommended 7z format and extract)
 
+Dependencies: pandas (uses version 0.17.1, sqlite3 (python interface), numpy and python 2.7+)
 On the folder wher site's data was extracted:
 - python makedb.py
 - python create_tables.py
