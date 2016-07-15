@@ -19,8 +19,8 @@ meant to be readable, notebooks are a much better development environment for pa
 
 - For efficiency:
 run the queries in create_tables.py in command line mode. Python sqlite interface
-makes it much slower.
-- these scripts have been tested for sites with many sizes. It should also work for
-Stack Overflow. These are quite expensive transformations.
+makes it much slower. (e.g. .mode csv .output 'filename' run query)
+- these scripts have been tested for various site sizes. It should also work for
+Stack Overflow. *These are quite expensive transformations*.
 However, it is advised to use a machine with more than 16 GB RAM.
 If you have a server with 1TB or similar there should be no problem.
